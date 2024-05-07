@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  text-align: center;
+  font-family: Montserrat;
+}
+
+
+ul{
+  background: black;
+  list-style: none;
+  display: flex;
+  gap:30px;
+  justify-content: center;
+  padding:30px;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+a:hover{
+  border-bottom: 1px solid aquamarine;
+}
+
+p{
+  margin-top: 30px;
+}
+
+
+.contacts-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.works,.contacts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+  align-items: flex-start;
+}
+
+.works{
+  align-items: center;
+}
+
+.works a,.contacts a{
+  color:black;
+}
